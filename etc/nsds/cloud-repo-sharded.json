@@ -14,15 +14,7 @@
                     "vm_image":[  
                         "ubuntu-cloud-64bit"
                     ],
-                    "computation_requirement":"",
-                    "virtual_memory_resource_element":"1024",
-                    "virtual_network_bandwidth_resource":"1000000",
-                    "lifecycle_event":[  
-
-                    ],
                     "vimInstanceName":"vim-instance",
-                    "vdu_constraint":"",
-                    "high_availability":"ACTIVE_PASSIVE",
                     "scale_in_out":2,
                     "vnfc":[  
                         {  
@@ -33,9 +25,6 @@
                                 }
                             ]
                         }
-                    ],
-                    "monitoring_parameter":[  
-                        "cpu_utilization"
                     ]
                 }
             ],
@@ -43,9 +32,6 @@
                 {  
                     "name":"internal_nubomedia"
                 }
-            ],
-            "connection_point":[  
-
             ],
             "lifecycle_event":[  
                 {  
@@ -62,27 +48,13 @@
                     ]
                 }
             ],
-            "vdu_dependency":[  
-
-            ],
-            "monitoring_parameter":[  
-                "cpu_utilization"
-            ],
             "deployment_flavour":[  
                 {  
-                    "df_constraint":[  
-                        "constraint1",
-                        "constraint2"
-                    ],
-                    "costituent_vdu":[  
-
-                    ],
                     "flavour_key":"m1.small"
                 }
             ],
-            "manifest_file":"",
             "vnfPackage":{  
-                "scriptsLink":"https://gitlab.tubit.tu-berlin.de/lorenzo.tomasini/cloud-repository-scripts.git"
+                "scriptsLink":"https://github.com/tub-nubomedia/cloud-repository-scripts.git"
             }
         },
         {  
@@ -105,15 +77,7 @@
                     "vm_image":[  
                         "ubuntu-cloud-64bit"
                     ],
-                    "computation_requirement":"",
-                    "virtual_memory_resource_element":"1024",
-                    "virtual_network_bandwidth_resource":"1000000",
-                    "lifecycle_event":[  
-
-                    ],
                     "vimInstanceName":"vim-instance",
-                    "vdu_constraint":"",
-                    "high_availability":"ACTIVE_PASSIVE",
                     "scale_in_out":2,
                     "vnfc":[  
                         {  
@@ -123,9 +87,6 @@
                                 }
                             ]
                         }
-                    ],
-                    "monitoring_parameter":[  
-                        "cpu_utilization"
                     ]
                 }
             ],
@@ -133,9 +94,6 @@
                 {  
                     "name":"internal_nubomedia"
                 }
-            ],
-            "connection_point":[  
-
             ],
             "lifecycle_event":[  
                 {  
@@ -146,27 +104,13 @@
                     ]
                 }
             ],
-            "vdu_dependency":[  
-
-            ],
-            "monitoring_parameter":[  
-                "cpu_utilization"
-            ],
             "deployment_flavour":[  
                 {  
-                    "df_constraint":[  
-                        "constraint1",
-                        "constraint2"
-                    ],
-                    "costituent_vdu":[  
-
-                    ],
                     "flavour_key":"m1.small"
                 }
             ],
-            "manifest_file":"",
             "vnfPackage":{  
-                "scriptsLink":"https://gitlab.tubit.tu-berlin.de/lorenzo.tomasini/cloud-repository-scripts.git"
+                "scriptsLink":"https://github.com/tub-nubomedia/cloud-repository-scripts.git"
             }
         },
         {  
@@ -189,15 +133,7 @@
                     "vm_image":[  
                         "ubuntu-cloud-64bit"
                     ],
-                    "computation_requirement":"",
-                    "virtual_memory_resource_element":"1024",
-                    "virtual_network_bandwidth_resource":"1000000",
-                    "lifecycle_event":[  
-
-                    ],
                     "vimInstanceName":"vim-instance",
-                    "vdu_constraint":"",
-                    "high_availability":"ACTIVE_PASSIVE",
                     "scale_in_out":2,
                     "vnfc":[  
                         {  
@@ -207,9 +143,6 @@
                                 }
                             ]
                         }
-                    ],
-                    "monitoring_parameter":[  
-                        "cpu_utilization"
                     ]
                 }
             ],
@@ -217,9 +150,6 @@
                 {  
                     "name":"internal_nubomedia"
                 }
-            ],
-            "connection_point":[  
-
             ],
             "lifecycle_event":[  
                 {  
@@ -230,40 +160,20 @@
                     ]
                 }
             ],
-            "vdu_dependency":[  
-
-            ],
-            "monitoring_parameter":[  
-                "cpu_utilization"
-            ],
             "deployment_flavour":[  
                 {  
-                    "df_constraint":[  
-                        "constraint1",
-                        "constraint2"
-                    ],
-                    "costituent_vdu":[  
-
-                    ],
                     "flavour_key":"m1.small"
                 }
             ],
-            "manifest_file":"",
             "vnfPackage":{  
-                "scriptsLink":"https://gitlab.tubit.tu-berlin.de/lorenzo.tomasini/cloud-repository-scripts.git"
+                "scriptsLink":"https://github.com/tub-nubomedia/cloud-repository-scripts.git"
             }
         }
-    ],
-    "vnffgd":[  
-
     ],
     "vld":[  
         {  
             "name":"internal_nubomedia"
         }
-    ],
-    "lifecycle_event":[  
-
     ],
     "vnf_dependency":[  
         {  
@@ -288,22 +198,5 @@
                 "internal_nubomedia"
             ]
         }
-    ],
-    "monitoring_parameter":[  
-        "cpu_utilization"
-    ],
-    "service_deployment_flavour":[  
-        {  
-
-        }
-    ],
-    "auto_scale_policy":[  
-
-    ],
-    "connection_point":[  
-
-    ],
-    "pnfd":[  
-
     ]
 }

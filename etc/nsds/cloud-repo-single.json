@@ -88,7 +88,7 @@
             ],
             "manifest_file":"",
             "vnfPackage":{  
-                "scriptsLink":"https://gitlab.tubit.tu-berlin.de/lorenzo.tomasini/cloud-repository-scripts.git"
+                "scriptsLink":"https://github.com/tub-nubomedia/cloud-repository-scripts.git"
             }
         }
     ],
