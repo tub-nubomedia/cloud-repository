@@ -68,9 +68,7 @@
                     "flavour_key":"m1.small"
                 }
             ],
-            "vnfPackage":{  
-                "scriptsLink":"https://github.com/tub-nubomedia/cloud-repository-scripts.git"
-            }
+            "vnfPackageLocation":"https://github.com/tub-nubomedia/cloud-repository-scripts.git"
         }
     ],
     "vld":[  
