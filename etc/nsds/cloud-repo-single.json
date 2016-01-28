@@ -13,7 +13,15 @@
                 "name":"config_config",
                 "configurationParameters":[  
                     {  
-                        "confKey":"smallfiles",
+                        "confKey":"PORT",
+                        "value":"27018"
+                    },
+                    {  
+                        "confKey":"SMALLFILES",
+                        "value":"true"
+                    },
+                    {  
+                        "confKey":"SECURITY",
                         "value":"true"
                     },
                     {  
